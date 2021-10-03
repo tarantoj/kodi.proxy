@@ -11,4 +11,4 @@ RUN echo "userdata=/config/kodi.proxy" >> config.ini \
     && chmod 555 proxy tv_grab_iptv_merge iptv_merge.m3u8.sh tvh.sh \
     && ln -s /usr/share/kodi.proxy/tv_grab_iptv_merge /usr/bin/tv_grab_iptv_merge
 
-COPY 40-config /etc/cont-init.d/40-config
+COPY ./docker/40-config /etc/cont-init.d/40-config
