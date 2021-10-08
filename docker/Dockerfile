@@ -2,7 +2,7 @@ FROM linuxserver/tvheadend
 
 RUN apk add --no-cache py-virtualenv wget git
 
-WORKDIR /user/share/kodi.proxy
+WORKDIR /usr/share/kodi.proxy
 COPY . .
 
 RUN echo "userdata=/config/kodi.proxy" >> config.ini \
