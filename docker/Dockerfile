@@ -1,6 +1,6 @@
 FROM linuxserver/tvheadend
 
-RUN apk add --no-cache py-virtualenv wget git
+RUN apk add --no-cache python2 py-virtualenv wget git
 
 WORKDIR /usr/share/kodi.proxy
 COPY . .
