@@ -1,5 +1,7 @@
 # kodi.proxy
 
+[![Docker](https://github.com/tarantoj/kodi.proxy/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/tarantoj/kodi.proxy/actions/workflows/docker-publish.yml)
+
 ```
 git clone https://github.com/matthuisman/kodi.proxy
 cd kodi.proxy
